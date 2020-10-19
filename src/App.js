@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import CreateElement from './component/createElement';
+import Ekspresi from './component/ekspresi'
+import Child from './component/child'
+import Atribut from './component/atribut'
+import TanpaChild from './component/tanpaChild'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CreateElement />
+    // <Ekspresi />
+    // <Child />
+    // <Atribut />
+    // <TanpaChild />
   );
 }
 
